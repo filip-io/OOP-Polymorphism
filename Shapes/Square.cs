@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 namespace OOP_Polymorphism.Shapes
 {
 
-    //Declaration of sub class
+    // Declaration of sub class
 
     internal class Square : Geometry
     {
-        public double Side { get; set; }
+        public double Side;
 
 
         // Sub class constructor

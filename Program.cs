@@ -11,11 +11,11 @@ namespace OOP_Polymorphism
     {
         static void Main(string[] args)
         {
-            Geometry Circle = new Circle(); 
+            Geometry Circle = new Circle();
             Console.WriteLine($"The area of the circle is: {Math.Round(Circle.Area(), 2)}");
 
             Geometry Square = new Square();
-            Console.WriteLine($"The area of the square is: {Math.Round(Square.Area(), 2)}"); 
+            Console.WriteLine($"The area of the square is: {Math.Round(Square.Area(), 2)}");
 
             Geometry Rectangle = new Rectangle();
             Console.WriteLine($"The area of the rectangle is: {Math.Round(Rectangle.Area(), 2)}");
@@ -25,6 +25,8 @@ namespace OOP_Polymorphism
 
             Geometry Ellipse = new Ellipse();
             Console.WriteLine($"The area of the ellipse is: {Math.Round(Ellipse.Area(), 2)}");
+
+            Console.ReadLine();
         }
     }
 }

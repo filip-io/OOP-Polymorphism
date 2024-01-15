@@ -6,14 +6,10 @@ using System.Threading.Tasks;
 
 namespace OOP_Polymorphism
 {
-
     // Declaration of base class
 
-    internal class Geometry
+    internal abstract class Geometry
     {
-        public virtual double Area()
-        {
-            return 0.0;
-        }
+        public abstract double Area();
     }
 }
